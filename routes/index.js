@@ -3,7 +3,7 @@ module.exports = function (app) {
     res.redirect('/posts');
   });
   app.use('/signup', require('./signup'));
-  app.use('/signin', require('./sigin'));
+  app.use('/signin', require('./signin'));
   app.use('/signout', require('./signout'));
   app.use('/posts', require('./posts'));
 }
