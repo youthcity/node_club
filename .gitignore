@@ -66,4 +66,5 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-public/img/*
+config/*
+!config/default.*
